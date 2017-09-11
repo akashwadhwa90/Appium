@@ -22,9 +22,9 @@ Appium Inspector:
 
 No official Appium Inspector is released for Appium 1.6 or above. So there are few workarounds to identify iOS native elements.(https://medium.com/@chenchaoyi/the-options-of-inspecting-ios-10-app-with-appium-1-6-534ba166b958)
 
-a.       Open GUI of Appium (Older version, ex:1.5.3)and set all required capabilities.
-b.      Start Appium 1.6.5(1.6 or above) from command prompt.
-c.       Once server is started, start inspecting elements by click on Appium Inspector on GUI
+a.Open GUI of Appium (Older version, ex:1.5.3)and set all required capabilities.
+b.Start Appium 1.6.5(1.6 or above) from command prompt.
+c.Once server is started, start inspecting elements by click on Appium Inspector on GUI
 
 
 Install External Dependencies:
