@@ -1,0 +1,811 @@
+2017-09-10 04:47:46:027 - info: [Appium] Welcome to Appium v1.6.5
+2017-09-10 04:47:46:029 - info: [Appium] Non-default server args:
+2017-09-10 04:47:46:029 - info: [Appium]   address: 127.0.0.1
+2017-09-10 04:47:46:029 - info: [Appium]   log: /Users/akashwadhwa89/Documents/workspace/Appium/log/iosLog.txt
+2017-09-10 04:47:46:060 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2017-09-10 04:47:46:293 - info: [HTTP] --> GET /wd/hub/status {}
+2017-09-10 04:47:46:297 - info: [debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+2017-09-10 04:47:46:315 - info: [debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.6.5","revision":null}}
+2017-09-10 04:47:46:321 - info: [HTTP] <-- GET /wd/hub/status 200 25 ms - 83 
+2017-09-10 04:47:54:657 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"platformVersion":"10.3","automationName":"XCUITest","browserName":"safari","platformName":"iOS","deviceName":"iPad Air","UDID":"9789F981-B281-4146-A43D-1F8978A3D8FC"},"requiredCapabilities":{},"capabilities":{"desiredCapabilities":{"platformVersion":"10.3","automationName":"XCUITest","browserName":"safari","platformName":"iOS","deviceName":"iPad Air","UDID":"9789F981-B281-4146-A43D-1F8978A3D8FC"},"requiredCapabilities":{},"alwaysMatch":{"platformName":"iOS"},"firstMatch":[{"browserName":"safari"}]}}
+2017-09-10 04:47:54:658 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"platformVersion":"10.3","automationName":"XCUITest","browserName":"safari","platformName":"iOS","deviceName":"iPad Air","UDID":"9789F981-B281-4146-A43D-1F8978A3D8FC"},{},{"desiredCapabilities":{"platformVersion":"10.3","automationName":"XCUITest","browserName":"safari","platformName":"iOS","deviceName":"iPad Air","UDID":"9789F981-B281-4146-A43D-1F8978A3D8FC"},"requiredCapabilities":{},"alwaysMatch":{"platformName":"iOS"},"firstMatch":[{"browserName":"safari"}]}]
+2017-09-10 04:47:54:658 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1505018874658 (10:17:54 GMT+0530 (IST))
+2017-09-10 04:47:54:660 - info: [Appium] Creating new XCUITestDriver (v2.30.0) session
+2017-09-10 04:47:54:660 - info: [Appium] Capabilities:
+2017-09-10 04:47:54:662 - info: [Appium]   platformVersion: '10.3'
+2017-09-10 04:47:54:662 - info: [Appium]   automationName: 'XCUITest'
+2017-09-10 04:47:54:662 - info: [Appium]   browserName: 'safari'
+2017-09-10 04:47:54:663 - info: [Appium]   platformName: 'iOS'
+2017-09-10 04:47:54:663 - info: [Appium]   deviceName: 'iPad Air'
+2017-09-10 04:47:54:663 - info: [Appium]   UDID: '9789F981-B281-4146-A43D-1F8978A3D8FC'
+2017-09-10 04:47:54:664 - info: [debug] [XCUITest] XCUITestDriver version: 2.30.0
+2017-09-10 04:47:54:670 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: UDID.
+2017-09-10 04:47:54:786 - info: [BaseDriver] Session created with session id: 5f02e916-e387-40e0-9707-189a67e79d79
+2017-09-10 04:47:54:890 - info: [debug] [XCUITest] Xcode version set to '8.3.3' (tools v8.3.2.0.1.1492020469)
+2017-09-10 04:47:54:905 - info: [debug] [XCUITest] iOS SDK Version set to '10.3'
+2017-09-10 04:47:54:905 - info: [debug] [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1505018874905 (10:17:54 GMT+0530 (IST))
+2017-09-10 04:47:55:138 - info: [iOSSim] Constructing iOS simulator for Xcode version 8.3.3 with udid '9789F981-B281-4146-A43D-1F8978A3D8FC'
+2017-09-10 04:47:55:138 - info: [XCUITest] Determining device to run tests on: udid: '9789F981-B281-4146-A43D-1F8978A3D8FC', real device: false
+2017-09-10 04:47:55:139 - info: [XCUITest] Safari test requested
+2017-09-10 04:47:55:139 - info: [debug] [BaseDriver] Event 'appConfigured' logged at 1505018875139 (10:17:55 GMT+0530 (IST))
+2017-09-10 04:47:55:139 - info: [debug] [BaseDriver] Event 'resetStarted' logged at 1505018875139 (10:17:55 GMT+0530 (IST))
+2017-09-10 04:47:55:351 - info: [debug] [XCUITest] Mobile Safari process is not running. Continuing with cleanup
+2017-09-10 04:47:55:352 - info: [debug] [iOSSim] Cleaning mobile safari data files
+2017-09-10 04:47:55:353 - info: [debug] [iOSSim] Checking whether simulator has been run before
+2017-09-10 04:47:55:437 - info: [debug] [iOSSim] Simulator has been run before
+2017-09-10 04:47:55:438 - info: [debug] [iOSSim] Checking whether simulator has been run before
+2017-09-10 04:47:55:439 - info: [debug] [iOSSim] Simulator has been run before
+2017-09-10 04:47:55:440 - info: [debug] [iOSSim] Building bundle path map
+2017-09-10 04:47:55:524 - info: [debug] [BaseDriver] Event 'resetComplete' logged at 1505018875523 (10:17:55 GMT+0530 (IST))
+2017-09-10 04:47:55:526 - info: [debug] [iOSLog] Starting iOS 10.3 simulator log capture
+2017-09-10 04:47:55:526 - info: [debug] [iOSLog] System log path: /Users/akashwadhwa89/Library/Logs/CoreSimulator/9789F981-B281-4146-A43D-1F8978A3D8FC/system.log
+2017-09-10 04:47:55:545 - info: [debug] [BaseDriver] Event 'logCaptureStarted' logged at 1505018875544 (10:17:55 GMT+0530 (IST))
+2017-09-10 04:47:55:545 - info: [XCUITest] Setting up simulator
+2017-09-10 04:47:55:547 - info: [debug] [iOS] No reason to set locale
+2017-09-10 04:47:55:552 - info: [debug] [iOS] No iOS / app preferences to set
+2017-09-10 04:47:55:660 - info: [XCUITest] Simulator with udid '9789F981-B281-4146-A43D-1F8978A3D8FC' already booted
+2017-09-10 04:47:55:661 - info: [debug] [BaseDriver] Event 'simStarted' logged at 1505018875661 (10:17:55 GMT+0530 (IST))
+2017-09-10 04:47:55:661 - info: [debug] [BaseDriver] Event 'appInstalled' logged at 1505018875661 (10:17:55 GMT+0530 (IST))
+2017-09-10 04:47:55:663 - info: [debug] [BaseDriver] Event 'wdaStartAttempted' logged at 1505018875663 (10:17:55 GMT+0530 (IST))
+2017-09-10 04:47:55:663 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-09-10 04:47:55:664 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2017-09-10 04:47:55:664 - info: [XCUITest] Launching WebDriverAgent on the device
+2017-09-10 04:47:55:671 - warn: [XCUITest] Carthage not found. Install using `brew install carthage`
+2017-09-10 04:47:55:672 - info: [debug] [XCUITest] Killing hanging processes
+2017-09-10 04:47:55:767 - info: [debug] [XCUITest] Beginning test with command 'xcodebuild build-for-testing test-without-building -project /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination id=9789F981-B281-4146-A43D-1F8978A3D8FC -configuration Debug IPHONEOS_DEPLOYMENT_TARGET=10.3' in directory '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2017-09-10 04:47:55:767 - info: [debug] [XCUITest] Output from xcodebuild will not be logged
+2017-09-10 04:47:56:520 - info: [debug] [XCUITest] Waiting up to 60000ms for WebDriverAgent to start
+2017-09-10 04:47:56:522 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2017-09-10 04:47:57:064 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2017-09-10 04:47:57:273 - info: [debug] [XCUITest] Log file for xcodebuild test: /Users/akashwadhwa89/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Logs/Test/6ED3A9BA-CCF3-4B54-95E6-7824F9EC6B90/Session-WebDriverAgentRunner-2017-09-10_101757-H1XyI0.log
+2017-09-10 04:47:57:575 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2017-09-10 04:47:58:084 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2017-09-10 04:47:58:593 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2017-09-10 04:47:59:104 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2017-09-10 04:47:59:613 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2017-09-10 04:48:00:120 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2017-09-10 04:48:00:626 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2017-09-10 04:48:01:135 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2017-09-10 04:48:01:644 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2017-09-10 04:48:02:150 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2017-09-10 04:48:02:661 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2017-09-10 04:48:03:173 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2017-09-10 04:48:03:680 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2017-09-10 04:48:03:692 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"state\" : \"success\",\n    \"os\" : {\n      \"name\" : \"iOS\",\n      \"version\" : \"10.3.1\"\n    },\n    \"ios\" : {\n      \"simulatorVersion\" : \"10.3.1\",\n      \"ip\" : \"192.168.1.4\"\n    },\n    \"build\" : {\n      \"time\" : \"Sep  9 2017 17:01:56\"\n    }\n  },\n  \"sessionId\" : \"21E903E9-1162-48D7-A378-22A5FF3E5608\",\n  \"status\" : 0\n}"
+2017-09-10 04:48:03:693 - info: [debug] [XCUITest] WebDriverAgent running on ip '192.168.1.4'
+2017-09-10 04:48:03:694 - info: [debug] [XCUITest] WebDriverAgent successfully started after 7923ms
+2017-09-10 04:48:03:697 - info: [debug] [BaseDriver] Event 'wdaSessionAttempted' logged at 1505018883697 (10:18:03 GMT+0530 (IST))
+2017-09-10 04:48:03:697 - info: [debug] [XCUITest] Sending createSession command to WDA
+2017-09-10 04:48:03:700 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.apple.mobilesafari","arguments":["-u","http://127.0.0.1:4723/welcome"],"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}}
+2017-09-10 04:48:06:228 - info: [HTTP] --> GET /welcome {}
+2017-09-10 04:48:06:231 - info: [debug] [HTTP] Sending welcome response with params: {"message":"Let's browse!"}
+2017-09-10 04:48:06:234 - info: [HTTP] <-- GET /welcome 200 5 ms - 124 
+2017-09-10 04:48:06:649 - info: [debug] [JSONWP Proxy] Got response with status 200: {"value":{"sessionId":"A8BC608A-64BB-40AE-A167-EC04E1F06CC4","capabilities":{"device":"ipad","browserName":"Safari","sdkVersion":"10.3.1","CFBundleIdentifier":"com.apple.mobilesafari"}},"sessionId":"A8BC608A-64BB-40AE-A167-EC04E1F06CC4","status":0}
+2017-09-10 04:48:06:649 - info: [debug] [BaseDriver] Event 'wdaSessionStarted' logged at 1505018886649 (10:18:06 GMT+0530 (IST))
+2017-09-10 04:48:06:651 - info: [debug] [XCUITest] Found WDA derived data folder: '/Users/akashwadhwa89/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy'
+2017-09-10 04:48:06:652 - info: [XCUITest] Setting '555' permissions to '/Users/akashwadhwa89/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Logs/Test/Attachments' folder
+2017-09-10 04:48:06:652 - info: [debug] [BaseDriver] Event 'wdaPermsAdjusted' logged at 1505018886652 (10:18:06 GMT+0530 (IST))
+2017-09-10 04:48:06:653 - info: [debug] [BaseDriver] Event 'wdaStarted' logged at 1505018886653 (10:18:06 GMT+0530 (IST))
+2017-09-10 04:48:06:654 - info: [debug] [XCUITest] Setting initial orientation to 'PORTRAIT'
+2017-09-10 04:48:06:656 - info: [debug] [JSONWP Proxy] Proxying [POST /orientation] to [POST http://localhost:8100/session/A8BC608A-64BB-40AE-A167-EC04E1F06CC4/orientation] with body: {"orientation":"PORTRAIT"}
+2017-09-10 04:48:06:942 - info: [debug] [JSONWP Proxy] Got response with status 200: {"value":{},"sessionId":"A8BC608A-64BB-40AE-A167-EC04E1F06CC4","status":0}
+2017-09-10 04:48:06:942 - info: [debug] [BaseDriver] Event 'orientationSet' logged at 1505018886942 (10:18:06 GMT+0530 (IST))
+2017-09-10 04:48:06:943 - info: [debug] [XCUITest] Waiting for initial webview
+2017-09-10 04:48:06:945 - info: [debug] [iOS] Navigating to most recently opened webview
+2017-09-10 04:48:06:946 - info: [debug] [iOS] Retrieving contexts and views
+2017-09-10 04:48:06:947 - info: [debug] [iOS] Selecting by url: true (expected url: 'http://127.0.0.1:4723/welcome')
+2017-09-10 04:48:06:948 - info: [debug] [RemoteDebugger] useNewSafari --> false
+2017-09-10 04:48:06:951 - info: [debug] [RemoteDebugger] Debugger socket connected to ::1:27753
+2017-09-10 04:48:06:955 - info: [debug] [RemoteDebugger] Sending connection key request
+2017-09-10 04:48:06:957 - info: [debug] [RemoteDebugger] Sending '_rpc_reportIdentifier:' message to remote debugger
+2017-09-10 04:48:06:968 - info: [debug] [RemoteDebugger] Receiving data from remote debugger: '{"__argument":{"WIRSimulatorBuildKey":"14E8301","WIRSimulatorProductVersionKey":"10.3.1","WIRSimulatorNameKey":"iPad"},"__selector":"_rpc_reportSetup:"}'
+2017-09-10 04:48:06:969 - info: [debug] [RemoteDebugger] Received response from socket send: '["iPad","14E8301","10.3.1"]'
+2017-09-10 04:48:06:970 - info: [debug] [RemoteDebugger] Receiving data from remote debugger: '{"__argument":{"WIRApplicationDictionaryKey":{"PID:1017":{"WIRRemoteAutomationEnabledKey":false,"WIRIsApplicationActiveKey":1,"WIRIsApplicationReadyKey":true,"WIRApplicationIdentifierKey":"PID:1017","WIRIsApplicationProxyKey":true,"WIRApplicationNameKey":"com.apple.WebKit.WebContent","WIRApplicationBundleIdentifierKey":"com.apple.WebKit.WebContent","WIRHostApplicationIdentifierKey":"PID:1015"},"PID:1015":{"WIRRemoteAutomationEnabledKey":false,"WIRIsApplicationActiveKey":1,"WIRIsApplicationReadyKey":true,"WIRApplicationIdentifierKey":"PID:1015","WIRIsApplicationProxyKey":false,"WIRApplicationNameKey":"Safari","WIRApplicationBundleIdentifierKey":"com.apple.mobilesafari"}}},"__selector":"_rpc_reportConnectedApplicationList:"}'
+2017-09-10 04:48:06:971 - info: [debug] [RemoteDebugger] Receiving data from remote debugger: '{"__argument":{"WIRDriverDictionaryKey":{}},"__selector":"_rpc_reportConnectedDriverList:"}'
+2017-09-10 04:48:06:971 - info: [debug] [RemoteDebugger] Notified of connected drivers: {}.
+2017-09-10 04:48:06:972 - info: [debug] [RemoteDebugger] Connected to application
+2017-09-10 04:48:06:972 - info: [debug] [RemoteDebugger] Sim name: iPad
+2017-09-10 04:48:06:972 - info: [debug] [RemoteDebugger] Sim build: 14E8301
+2017-09-10 04:48:06:972 - info: [debug] [RemoteDebugger] Sim platform version: 10.3.1
+2017-09-10 04:48:06:974 - info: [debug] [RemoteDebugger] Selecting application
+2017-09-10 04:48:06:974 - info: [debug] [RemoteDebugger] Found app id key 'PID:1015' for bundle 'com.apple.mobilesafari'
+2017-09-10 04:48:06:974 - info: [debug] [RemoteDebugger] Found separate bundleId 'com.apple.WebKit.WebContent' acting as proxy for 'com.apple.mobilesafari', with app id 'PID:1017'
+2017-09-10 04:48:06:975 - info: [debug] [RemoteDebugger] Trying out the possible app ids: PID:1017
+2017-09-10 04:48:06:975 - info: [debug] [RemoteDebugger] Selecting app PID:1017 (try #1 of 20)
+2017-09-10 04:48:06:976 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardGetListing:' message to remote debugger
+2017-09-10 04:48:06:978 - info: [debug] [RemoteDebugger] Receiving data from remote debugger: '{"__argument":{"WIRApplicationIdentifierKey":"PID:1017","WIRListingKey":{"1":{"WIRTitleKey":"Appium/welcome","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"http://127.0.0.1:4723/welcome","WIRPageIdentifierKey":1}}},"__selector":"_rpc_applicationSentListing:"}'
+2017-09-10 04:48:06:978 - info: [debug] [RemoteDebugger] Received response from socket send: '["PID:1017",{"1":{"WIRTitleKey":"Appium/welcome...'
+2017-09-10 04:48:06:978 - info: [debug] [RemoteDebugger] Received page change notice for app 'PID:1017' but listening for 'null'. Ignoring.
+2017-09-10 04:48:06:979 - info: [debug] [RemoteDebugger] Received altered app id, updating from 'null' to 'PID:1017'
+2017-09-10 04:48:06:979 - info: [debug] [RemoteDebugger] Finally selecting app PID:1017: [{"id":1,"title":"Appium/welcome","url":"http://127.0.0.1:4723/welcome","isKey":false}]
+2017-09-10 04:48:06:980 - info: [debug] [iOS] Picking webview 'WEBVIEW_1017.1'
+2017-09-10 04:48:06:981 - info: [debug] [iOS] Attempting to set context to 'WEBVIEW_1017.1'
+2017-09-10 04:48:06:981 - info: [debug] [RemoteDebugger] Selecting page '1' on app 'PID:1017' and forwarding socket setup
+2017-09-10 04:48:06:982 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketSetup:' message to remote debugger
+2017-09-10 04:48:06:983 - info: [debug] [RemoteDebugger] Sender key set
+2017-09-10 04:48:06:984 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:48:06:987 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:48:06:988 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:48:06:988 - info: [debug] [RemoteDebugger] Received data response from socket send: '{}'
+2017-09-10 04:48:06:988 - info: [debug] [RemoteDebugger] Original command: enablePage
+2017-09-10 04:48:06:989 - info: [debug] [RemoteDebugger] Enabled activity on page
+2017-09-10 04:48:06:989 - info: [debug] [RemoteDebugger] Checking document readyState
+2017-09-10 04:48:06:990 - info: [debug] [RemoteDebugger] Sending javascript command (function (){ return document.readyState; })()
+2017-09-10 04:48:06:990 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:48:06:996 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:48:06:996 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:48:06:996 - info: [debug] [RemoteDebugger] Received data response from socket send: 'complete'
+2017-09-10 04:48:06:997 - info: [debug] [RemoteDebugger] Original command: sendJSCommand
+2017-09-10 04:48:06:997 - info: [debug] [RemoteDebugger] readyState was "complete"
+2017-09-10 04:48:06:998 - info: [debug] [RemoteDebugger] Unregistering from page readiness notifications
+2017-09-10 04:48:06:998 - info: [debug] [BaseDriver] Event 'initialWebviewNavigated' logged at 1505018886998 (10:18:06 GMT+0530 (IST))
+2017-09-10 04:48:06:999 - info: [Appium] New XCUITestDriver session created successfully, session 5f02e916-e387-40e0-9707-189a67e79d79 added to master session list
+2017-09-10 04:48:07:000 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1505018887000 (10:18:07 GMT+0530 (IST))
+2017-09-10 04:48:07:001 - info: [debug] [MJSONWP] Responding to client with driver.createSession() result: {"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"safari","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformVersion":"10.3","automationName":"XCUITest","platformName":"iOS","deviceName":"iPad Air","UDID":"9789F981-B281-4146-A43D-1F8978A3D8FC","udid":"9789F981-B281-4146-A43D-1F8978A3D8FC"}
+2017-09-10 04:48:07:003 - info: [HTTP] <-- POST /wd/hub/session 200 12345 ms - 465 
+2017-09-10 04:48:07:188 - info: [debug] [RemoteDebugger] Receiving data from remote debugger: '{"__argument":{"WIRApplicationIdentifierKey":"PID:1017","WIRListingKey":{"1":{"WIRTitleKey":"Appium/welcome","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"http://127.0.0.1:4723/welcome","WIRPageIdentifierKey":1}}},"__selector":"_rpc_applicationSentListing:"}'
+2017-09-10 04:48:07:188 - info: [debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"Appium/welcome","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"http://127.0.0.1:4723/welcome","WIRPageIdentifierKey":1}}
+2017-09-10 04:48:07:189 - info: [debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"1017","pageArray":[{"id":1,"title":"Appium/welcome","url":"http://127.0.0.1:4723/welcome","isKey":false}]}
+2017-09-10 04:48:07:189 - info: [debug] [iOS] No key id found. Choosing first id from page array
+2017-09-10 04:48:07:190 - info: [debug] [iOS] Checking if page needs to load
+2017-09-10 04:48:07:190 - info: [debug] [iOS] Page load needed. Loading.
+2017-09-10 04:48:07:191 - info: [debug] [RemoteDebugger] Page loaded, verifying whether ready
+2017-09-10 04:48:07:205 - info: [HTTP] --> GET /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79 {}
+2017-09-10 04:48:07:206 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["5f02e916-e387-40e0-9707-189a67e79d79"]
+2017-09-10 04:48:07:207 - info: [debug] [XCUITest] Executing command 'getSession'
+2017-09-10 04:48:07:219 - info: [debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/A8BC608A-64BB-40AE-A167-EC04E1F06CC4] with no body
+2017-09-10 04:48:07:307 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"A8BC608A-64BB-40AE-A167-EC04E1F06CC4\",\n    \"capabilities\" : {\n      \"device\" : \"ipad\",\n      \"browserName\" : \"Safari\",\n      \"sdkVersion\" : \"10.3.1\",\n      \"CFBundleIdentifier\" : \"com.apple.mobilesafari\"\n    }\n  },\n  \"sessionId\" : \"A8BC608A-64BB-40AE-A167-EC04E1F06CC4\",\n  \"status\" : 0\n}"
+2017-09-10 04:48:07:307 - info: [XCUITest] Merging WDA caps over Appium caps for session detail response
+2017-09-10 04:48:07:308 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"9789F981-B281-4146-A43D-1F8978A3D8FC","platformVersion":"10.3","automationName":"XCUITest","browserName":"Safari","platformName":"iOS","deviceName":"iPad Air","UDID":"9789F981-B281-4146-A43D-1F8978A3D8FC","device":"ipad","sdkVersion":"10.3.1","CFBundleIdentifier":"com.apple.mobilesafari"}
+2017-09-10 04:48:07:309 - info: [HTTP] <-- GET /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79 200 104 ms - 370 
+2017-09-10 04:48:07:328 - info: [HTTP] --> GET /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79 {}
+2017-09-10 04:48:07:328 - info: [debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["5f02e916-e387-40e0-9707-189a67e79d79"]
+2017-09-10 04:48:07:329 - info: [debug] [XCUITest] Executing command 'getSession'
+2017-09-10 04:48:07:332 - info: [debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/A8BC608A-64BB-40AE-A167-EC04E1F06CC4] with no body
+2017-09-10 04:48:07:410 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"A8BC608A-64BB-40AE-A167-EC04E1F06CC4\",\n    \"capabilities\" : {\n      \"device\" : \"ipad\",\n      \"browserName\" : \"Safari\",\n      \"sdkVersion\" : \"10.3.1\",\n      \"CFBundleIdentifier\" : \"com.apple.mobilesafari\"\n    }\n  },\n  \"sessionId\" : \"A8BC608A-64BB-40AE-A167-EC04E1F06CC4\",\n  \"status\" : 0\n}"
+2017-09-10 04:48:07:410 - info: [XCUITest] Merging WDA caps over Appium caps for session detail response
+2017-09-10 04:48:07:411 - info: [debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"9789F981-B281-4146-A43D-1F8978A3D8FC","platformVersion":"10.3","automationName":"XCUITest","browserName":"Safari","platformName":"iOS","deviceName":"iPad Air","UDID":"9789F981-B281-4146-A43D-1F8978A3D8FC","device":"ipad","sdkVersion":"10.3.1","CFBundleIdentifier":"com.apple.mobilesafari"}
+2017-09-10 04:48:07:411 - info: [HTTP] <-- GET /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79 200 83 ms - 370 
+2017-09-10 04:48:07:693 - info: [debug] [RemoteDebugger] Checking document readyState
+2017-09-10 04:48:07:693 - info: [debug] [RemoteDebugger] Sending javascript command (function (){ return document.readyState; })()
+2017-09-10 04:48:07:694 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:48:07:697 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:48:07:698 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:48:07:698 - info: [debug] [RemoteDebugger] Received data response from socket send: 'complete'
+2017-09-10 04:48:07:698 - info: [debug] [RemoteDebugger] Original command: sendJSCommand
+2017-09-10 04:48:07:699 - info: [debug] [RemoteDebugger] readyState was "complete"
+2017-09-10 04:48:07:699 - info: [debug] [RemoteDebugger] Page is ready
+2017-09-10 04:48:07:699 - info: [debug] [iOS] New page listing is same as old, doing nothing
+2017-09-10 04:48:12:006 - info: [debug] [RemoteDebugger] Receiving data from remote debugger: '{"__argument":{"WIRApplicationIdentifierKey":"PID:1017","WIRListingKey":{"1":{"WIRTitleKey":"Appium/welcome","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"http://127.0.0.1:4723/welcome","WIRPageIdentifierKey":1}}},"__selector":"_rpc_applicationSentListing:"}'
+2017-09-10 04:48:12:007 - info: [debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"Appium/welcome","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"http://127.0.0.1:4723/welcome","WIRPageIdentifierKey":1}}
+2017-09-10 04:48:12:007 - info: [debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"1017","pageArray":[{"id":1,"title":"Appium/welcome","url":"http://127.0.0.1:4723/welcome","isKey":false}]}
+2017-09-10 04:48:12:008 - info: [debug] [iOS] No key id found. Choosing first id from page array
+2017-09-10 04:48:12:008 - info: [debug] [iOS] Checking if page needs to load
+2017-09-10 04:48:12:008 - info: [debug] [iOS] Page load needed. Loading.
+2017-09-10 04:48:12:009 - info: [debug] [RemoteDebugger] Page loaded, verifying whether ready
+2017-09-10 04:48:12:511 - info: [debug] [RemoteDebugger] Checking document readyState
+2017-09-10 04:48:12:512 - info: [debug] [RemoteDebugger] Sending javascript command (function (){ return document.readyState; })()
+2017-09-10 04:48:12:512 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:48:12:516 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:48:12:516 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:48:12:517 - info: [debug] [RemoteDebugger] Received data response from socket send: 'complete'
+2017-09-10 04:48:12:517 - info: [debug] [RemoteDebugger] Original command: sendJSCommand
+2017-09-10 04:48:12:518 - info: [debug] [RemoteDebugger] readyState was "complete"
+2017-09-10 04:48:12:518 - info: [debug] [RemoteDebugger] Page is ready
+2017-09-10 04:48:12:520 - info: [debug] [iOS] New page listing is same as old, doing nothing
+2017-09-10 04:48:14:550 - info: [HTTP] --> POST /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/timeouts {"type":"implicit","ms":30000}
+2017-09-10 04:48:14:551 - info: [debug] [MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",30000,"5f02e916-e387-40e0-9707-189a67e79d79"]
+2017-09-10 04:48:14:551 - info: [debug] [XCUITest] Executing command 'timeouts'
+2017-09-10 04:48:14:555 - info: [debug] [BaseDriver] Set implicit wait to 30000ms
+2017-09-10 04:48:14:556 - info: [debug] [MJSONWP] Responding to client with driver.timeouts() result: null
+2017-09-10 04:48:14:557 - info: [HTTP] <-- POST /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/timeouts 200 7 ms - 76 
+2017-09-10 04:48:14:564 - info: [HTTP] --> POST /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/url {"url":"http://saucelabs.com/test/guinea-pig"}
+2017-09-10 04:48:14:565 - info: [debug] [MJSONWP] Calling AppiumDriver.setUrl() with args: ["http://saucelabs.com/test/guinea-pig","5f02e916-e387-40e0-9707-189a67e79d79"]
+2017-09-10 04:48:14:565 - info: [debug] [XCUITest] Executing command 'setUrl'
+2017-09-10 04:48:14:568 - info: [debug] [iOS] Attempting to set url 'http://saucelabs.com/test/guinea-pig'
+2017-09-10 04:48:14:569 - info: [debug] [RemoteDebugger] Navigating to new URL: http://saucelabs.com/test/guinea-pig
+2017-09-10 04:48:14:570 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:48:14:583 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:48:14:584 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:48:14:585 - info: [debug] [RemoteDebugger] Received data response from socket send: '{}'
+2017-09-10 04:48:14:585 - info: [debug] [RemoteDebugger] Original command: setUrl
+2017-09-10 04:48:14:602 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:48:15:439 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:48:15:440 - info: [debug] [RemoteDebugger] Frame navigated, unloading page
+2017-09-10 04:48:15:440 - info: [debug] [RemoteDebugger] No frame navigation callback set.
+2017-09-10 04:48:15:446 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:48:15:447 - info: [debug] [RemoteDebugger] Page loaded, verifying whether ready
+2017-09-10 04:48:15:450 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:48:15:462 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:48:15:589 - info: [debug] [RemoteDebugger] Waiting for frame navigated message...
+2017-09-10 04:48:15:641 - info: [debug] [RemoteDebugger] Receiving data from remote debugger: '{"__argument":{"WIRApplicationIdentifierKey":"PID:1017","WIRListingKey":{"1":{"WIRTitleKey":"I am a page title - Sauce Labs","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"http://saucelabs.com/test/guinea-pig","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"d0b695a5-0eb6-422b-b52c-be7064cdcd99"}}},"__selector":"_rpc_applicationSentListing:"}'
+2017-09-10 04:48:15:642 - info: [debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"I am a page title - Sauce Labs","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"http://saucelabs.com/test/guinea-pig","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"d0b695a5-0eb6-422b-b52c-be7064cdcd99"}}
+2017-09-10 04:48:15:643 - info: [debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"1017","pageArray":[{"id":1,"title":"I am a page title - Sauce Labs","url":"http://saucelabs.com/test/guinea-pig","isKey":true}]}
+2017-09-10 04:48:15:644 - info: [debug] [iOS] Checking if page needs to load
+2017-09-10 04:48:15:644 - info: [debug] [iOS] Page load needed. Loading.
+2017-09-10 04:48:15:644 - info: [debug] [RemoteDebugger] Page loaded, verifying whether ready
+2017-09-10 04:48:15:647 - info: [debug] [RemoteDebugger] Receiving data from remote debugger: '{"__argument":{"WIRRemoteAutomationEnabledKey":false,"WIRIsApplicationActiveKey":1,"WIRIsApplicationReadyKey":true,"WIRApplicationIdentifierKey":"PID:1017","WIRIsApplicationProxyKey":true,"WIRApplicationNameKey":"com.apple.WebKit.WebContent","WIRApplicationBundleIdentifierKey":"com.apple.WebKit.WebContent","WIRHostApplicationIdentifierKey":"PID:1015"},"__selector":"_rpc_applicationUpdated:"}'
+2017-09-10 04:48:15:648 - info: [debug] [RemoteDebugger] Notified that application 'PID:1017' has been updated.
+2017-09-10 04:48:15:648 - info: [debug] [RemoteDebugger] Current applications available:
+2017-09-10 04:48:15:649 - info: [debug] [RemoteDebugger] Application: 'PID:1017'
+2017-09-10 04:48:15:650 - info: [debug] [RemoteDebugger]     id: "PID:1017"
+2017-09-10 04:48:15:650 - info: [debug] [RemoteDebugger]     isProxy: true
+2017-09-10 04:48:15:650 - info: [debug] [RemoteDebugger]     name: "com.apple.WebKit.WebContent"
+2017-09-10 04:48:15:651 - info: [debug] [RemoteDebugger]     bundleId: "com.apple.WebKit.WebContent"
+2017-09-10 04:48:15:651 - info: [debug] [RemoteDebugger]     hostId: "PID:1015"
+2017-09-10 04:48:15:651 - info: [debug] [RemoteDebugger]     isActive: 1
+2017-09-10 04:48:15:651 - info: [debug] [RemoteDebugger]     isAutomationEnabled: false
+2017-09-10 04:48:15:651 - info: [debug] [RemoteDebugger]     pageDict: [{"id":1,"title":"I am a page title - Sauce Labs","url":"http://saucelabs.com/test/guinea-pig","isKey":true}]
+2017-09-10 04:48:15:651 - info: [debug] [RemoteDebugger] Application: 'PID:1015'
+2017-09-10 04:48:15:652 - info: [debug] [RemoteDebugger]     id: "PID:1015"
+2017-09-10 04:48:15:652 - info: [debug] [RemoteDebugger]     isProxy: false
+2017-09-10 04:48:15:653 - info: [debug] [RemoteDebugger]     name: "Safari"
+2017-09-10 04:48:15:653 - info: [debug] [RemoteDebugger]     bundleId: "com.apple.mobilesafari"
+2017-09-10 04:48:15:653 - info: [debug] [RemoteDebugger]     hostId: undefined
+2017-09-10 04:48:15:654 - info: [debug] [RemoteDebugger]     isActive: 1
+2017-09-10 04:48:15:654 - info: [debug] [RemoteDebugger]     isAutomationEnabled: false
+2017-09-10 04:48:15:953 - info: [debug] [RemoteDebugger] Checking document readyState
+2017-09-10 04:48:15:954 - info: [debug] [RemoteDebugger] Sending javascript command (function (){ return document.readyState; })()
+2017-09-10 04:48:15:955 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:48:15:962 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:48:15:962 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:48:15:963 - info: [debug] [RemoteDebugger] Received data response from socket send: 'complete'
+2017-09-10 04:48:15:963 - info: [debug] [RemoteDebugger] Original command: sendJSCommand
+2017-09-10 04:48:15:964 - info: [debug] [RemoteDebugger] readyState was "complete"
+2017-09-10 04:48:15:964 - info: [debug] [RemoteDebugger] Page is ready
+2017-09-10 04:48:16:091 - info: [debug] [RemoteDebugger] Frame navigated in 0.501 sec from source: timeout
+2017-09-10 04:48:16:094 - info: [debug] [RemoteDebugger] Waiting for dom...
+2017-09-10 04:48:16:095 - info: [debug] [RemoteDebugger] Page loaded, verifying whether ready
+2017-09-10 04:48:16:149 - info: [debug] [RemoteDebugger] Checking document readyState
+2017-09-10 04:48:16:150 - info: [debug] [RemoteDebugger] Sending javascript command (function (){ return document.readyState; })()
+2017-09-10 04:48:16:150 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:48:16:153 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:48:16:153 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:48:16:154 - info: [debug] [RemoteDebugger] Received data response from socket send: 'complete'
+2017-09-10 04:48:16:154 - info: [debug] [RemoteDebugger] Original command: sendJSCommand
+2017-09-10 04:48:16:154 - info: [debug] [RemoteDebugger] readyState was "complete"
+2017-09-10 04:48:16:155 - info: [debug] [RemoteDebugger] Page is ready
+2017-09-10 04:48:16:155 - info: [debug] [iOS] New page listing is same as old, doing nothing
+2017-09-10 04:48:16:598 - info: [debug] [RemoteDebugger] Checking document readyState
+2017-09-10 04:48:16:599 - info: [debug] [RemoteDebugger] Sending javascript command (function (){ return document.readyState; })()
+2017-09-10 04:48:16:599 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:48:16:603 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:48:16:604 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:48:16:604 - info: [debug] [RemoteDebugger] Received data response from socket send: 'complete'
+2017-09-10 04:48:16:605 - info: [debug] [RemoteDebugger] Original command: sendJSCommand
+2017-09-10 04:48:16:605 - info: [debug] [RemoteDebugger] readyState was "complete"
+2017-09-10 04:48:16:606 - info: [debug] [RemoteDebugger] Page is ready
+2017-09-10 04:48:16:608 - info: [debug] [MJSONWP] Responding to client with driver.setUrl() result: null
+2017-09-10 04:48:16:609 - info: [HTTP] <-- POST /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/url 200 2044 ms - 76 
+2017-09-10 04:48:23:994 - info: [HTTP] --> GET /wd/hub/status {}
+2017-09-10 04:48:23:994 - info: [debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+2017-09-10 04:48:24:019 - info: [debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.6.5","revision":null}}
+2017-09-10 04:48:24:021 - info: [HTTP] <-- GET /wd/hub/status 200 26 ms - 83 
+2017-09-10 04:48:24:023 - info: [HTTP] --> GET /wd/hub/sessions {}
+2017-09-10 04:48:24:023 - info: [debug] [MJSONWP] Calling AppiumDriver.getSessions() with args: []
+2017-09-10 04:48:24:024 - info: [debug] [MJSONWP] Responding to client with driver.getSessions() result: [{"id":"5f02e916-e387-40e0-9707-189a67e79d79","capabilities":{"platformVersion":"10.3","automationName":"XCUITest","browserName":"safari","platformName":"iOS","deviceName":"iPad Air","UDID":"9789F981-B281-4146-A43D-1F8978A3D8FC"}}]
+2017-09-10 04:48:24:025 - info: [HTTP] <-- GET /wd/hub/sessions 200 2 ms - 269 
+2017-09-10 04:48:24:027 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"platformName":"iOS","platformVersion":"10.3","newCommandTimeout":"7200","automationName":"Appium","udid":"9789F981-B281-4146-A43D-1F8978A3D8FC","deviceName":"iPad Air"}}
+2017-09-10 04:48:24:028 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"platformName":"iOS","platformVersion":"10.3","newCommandTimeout":"7200","automationName":"Appium","udid":"9789F981-B281-4146-A43D-1F8978A3D8FC","deviceName":"iPad Air"},null,null]
+2017-09-10 04:48:24:028 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1505018904028 (10:18:24 GMT+0530 (IST))
+2017-09-10 04:48:24:028 - info: [Appium] Requested iOS support with version >= 10, using XCUITest driver instead of UIAutomation-based driver, since the latter is unsupported on iOS 10 and up.
+2017-09-10 04:48:24:028 - info: [Appium] Creating new XCUITestDriver (v2.30.0) session
+2017-09-10 04:48:24:029 - info: [Appium] Capabilities:
+2017-09-10 04:48:24:029 - info: [Appium]   platformName: 'iOS'
+2017-09-10 04:48:24:029 - info: [Appium]   platformVersion: '10.3'
+2017-09-10 04:48:24:029 - info: [Appium]   newCommandTimeout: '7200'
+2017-09-10 04:48:24:029 - info: [Appium]   automationName: 'Appium'
+2017-09-10 04:48:24:029 - info: [Appium]   udid: '9789F981-B281-4146-A43D-1F8978A3D8FC'
+2017-09-10 04:48:24:030 - info: [Appium]   deviceName: 'iPad Air'
+2017-09-10 04:48:24:030 - info: [debug] [XCUITest] XCUITestDriver version: 2.30.0
+2017-09-10 04:48:24:031 - warn: [BaseDriver] Capability 'newCommandTimeout' changed from string ('7200') to integer (7200). This may cause unexpected behavior
+2017-09-10 04:48:24:044 - error: [XCUITest] Error: The desired capabilities must include either an app or a bundleId for iOS
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:63:13)
+    at XCUITestDriver.validateDesiredCaps (../../lib/driver.js:755:11)
+    at XCUITestDriver.callee$0$0$ (../../../../lib/basedriver/commands/session.js:23:8)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at Promise (<anonymous>)
+    at F (/usr/local/lib/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at XCUITestDriver.callee$0$0 [as createSession] (../../../../lib/basedriver/commands/session.js:15:11)
+    at XCUITestDriver.createSession$ (../../lib/driver.js:113:21)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at Promise (<anonymous>)
+    at F (/usr/local/lib/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at XCUITestDriver.createSession (../../lib/driver.js:185:21)
+    at AppiumDriver.createSession$ (../../lib/appium.js:183:43)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at Promise (<anonymous>)
+    at F (/usr/local/lib/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at AppiumDriver.createSession (../../lib/appium.js:183:31)
+    at ../../../lib/basedriver/driver.js:207:24
+    at tryCatcher (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/util.js:26:23)
+    at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/promise.js:510:31)
+    at Promise._settlePromiseAt (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/promise.js:584:18)
+    at Promise._settlePromiseAtPostResolution (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/promise.js:248:10)
+    at Async._drainQueue (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/async.js:128:12)
+    at Async._drainQueues (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/async.js:133:10)
+    at Immediate.Async.drainQueues (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/async.js:15:14)
+    at runCallback (timers.js:781:20)
+    at tryOnImmediate (timers.js:743:5)
+    at processImmediate [as _immediateCallback] (timers.js:714:5)
+ Error: The desired capabilities must include either an app or a bundleId for iOS
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:63:13)
+    at XCUITestDriver.validateDesiredCaps (../../lib/driver.js:755:11)
+    at XCUITestDriver.callee$0$0$ (../../../../lib/basedriver/commands/session.js:23:8)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at Promise (<anonymous>)
+    at F (/usr/local/lib/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at XCUITestDriver.callee$0$0 [as createSession] (../../../../lib/basedriver/commands/session.js:15:11)
+    at XCUITestDriver.createSession$ (../../lib/driver.js:113:21)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at Promise (<anonymous>)
+    at F (/usr/local/lib/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at XCUITestDriver.createSession (../../lib/driver.js:185:21)
+    at AppiumDriver.createSession$ (../../lib/appium.js:183:43)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at Promise (<anonymous>)
+    at F (/usr/local/lib/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at AppiumDriver.createSession (../../lib/appium.js:183:31)
+    at ../../../lib/basedriver/driver.js:207:24
+    at tryCatcher (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/util.js:26:23)
+    at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/promise.js:510:31)
+    at Promise._settlePromiseAt (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/promise.js:584:18)
+    at Promise._settlePromiseAtPostResolution (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/promise.js:248:10)
+    at Async._drainQueue (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/async.js:128:12)
+    at Async._drainQueues (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/async.js:133:10)
+    at Immediate.Async.drainQueues (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/async.js:15:14)
+    at runCallback (timers.js:781:20)
+    at tryOnImmediate (timers.js:743:5)
+    at processImmediate [as _immediateCallback] (timers.js:714:5)
+2017-09-10 04:48:24:049 - error: [XCUITest] Error: The desired capabilities must include either an app or a bundleId for iOS
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:63:13)
+    at XCUITestDriver.validateDesiredCaps (../../lib/driver.js:755:11)
+    at XCUITestDriver.callee$0$0$ (../../../../lib/basedriver/commands/session.js:23:8)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at Promise (<anonymous>)
+    at F (/usr/local/lib/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at XCUITestDriver.callee$0$0 [as createSession] (../../../../lib/basedriver/commands/session.js:15:11)
+    at XCUITestDriver.createSession$ (../../lib/driver.js:113:21)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at Promise (<anonymous>)
+    at F (/usr/local/lib/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at XCUITestDriver.createSession (../../lib/driver.js:185:21)
+    at AppiumDriver.createSession$ (../../lib/appium.js:183:43)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at Promise (<anonymous>)
+    at F (/usr/local/lib/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at AppiumDriver.createSession (../../lib/appium.js:183:31)
+    at ../../../lib/basedriver/driver.js:207:24
+    at tryCatcher (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/util.js:26:23)
+    at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/promise.js:510:31)
+    at Promise._settlePromiseAt (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/promise.js:584:18)
+    at Promise._settlePromiseAtPostResolution (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/promise.js:248:10)
+    at Async._drainQueue (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/async.js:128:12)
+    at Async._drainQueues (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/async.js:133:10)
+    at Immediate.Async.drainQueues (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/async.js:15:14)
+    at runCallback (timers.js:781:20)
+    at tryOnImmediate (timers.js:743:5)
+    at processImmediate [as _immediateCallback] (timers.js:714:5)
+ Error: The desired capabilities must include either an app or a bundleId for iOS
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:63:13)
+    at XCUITestDriver.validateDesiredCaps (../../lib/driver.js:755:11)
+    at XCUITestDriver.callee$0$0$ (../../../../lib/basedriver/commands/session.js:23:8)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at Promise (<anonymous>)
+    at F (/usr/local/lib/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at XCUITestDriver.callee$0$0 [as createSession] (../../../../lib/basedriver/commands/session.js:15:11)
+    at XCUITestDriver.createSession$ (../../lib/driver.js:113:21)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at Promise (<anonymous>)
+    at F (/usr/local/lib/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at XCUITestDriver.createSession (../../lib/driver.js:185:21)
+    at AppiumDriver.createSession$ (../../lib/appium.js:183:43)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at Promise (<anonymous>)
+    at F (/usr/local/lib/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at AppiumDriver.createSession (../../lib/appium.js:183:31)
+    at ../../../lib/basedriver/driver.js:207:24
+    at tryCatcher (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/util.js:26:23)
+    at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/promise.js:510:31)
+    at Promise._settlePromiseAt (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/promise.js:584:18)
+    at Promise._settlePromiseAtPostResolution (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/promise.js:248:10)
+    at Async._drainQueue (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/async.js:128:12)
+    at Async._drainQueues (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/async.js:133:10)
+    at Immediate.Async.drainQueues (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/async.js:15:14)
+    at runCallback (timers.js:781:20)
+    at tryOnImmediate (timers.js:743:5)
+    at processImmediate [as _immediateCallback] (timers.js:714:5)
+2017-09-10 04:48:24:050 - info: [debug] [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+2017-09-10 04:48:24:055 - error: [MJSONWP] Encountered internal error running command: Error: The desired capabilities must include either an app or a bundleId for iOS
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:63:13)
+    at XCUITestDriver.validateDesiredCaps (../../lib/driver.js:755:11)
+    at XCUITestDriver.callee$0$0$ (../../../../lib/basedriver/commands/session.js:23:8)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at Promise (<anonymous>)
+    at F (/usr/local/lib/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at XCUITestDriver.callee$0$0 [as createSession] (../../../../lib/basedriver/commands/session.js:15:11)
+    at XCUITestDriver.createSession$ (../../lib/driver.js:113:21)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at Promise (<anonymous>)
+    at F (/usr/local/lib/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at XCUITestDriver.createSession (../../lib/driver.js:185:21)
+    at AppiumDriver.createSession$ (../../lib/appium.js:183:43)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at Promise (<anonymous>)
+    at F (/usr/local/lib/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at AppiumDriver.createSession (../../lib/appium.js:183:31)
+    at ../../../lib/basedriver/driver.js:207:24
+    at tryCatcher (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/util.js:26:23)
+    at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/promise.js:510:31)
+    at Promise._settlePromiseAt (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/promise.js:584:18)
+    at Promise._settlePromiseAtPostResolution (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/promise.js:248:10)
+    at Async._drainQueue (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/async.js:128:12)
+    at Async._drainQueues (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/async.js:133:10)
+    at Immediate.Async.drainQueues (/usr/local/lib/node_modules/appium/node_modules/bluebird/js/main/async.js:15:14)
+    at runCallback (timers.js:781:20)
+    at tryOnImmediate (timers.js:743:5)
+    at processImmediate [as _immediateCallback] (timers.js:714:5)
+2017-09-10 04:48:24:057 - info: [HTTP] <-- POST /wd/hub/session 500 29 ms - 210 
+2017-09-10 04:48:44:661 - info: [debug] [RemoteDebugger] Receiving data from remote debugger: '{"__argument":{"WIRApplicationIdentifierKey":"PID:1017","WIRListingKey":{"1":{"WIRTitleKey":"I am a page title - Sauce Labs","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"http://saucelabs.com/test/guinea-pig","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"d0b695a5-0eb6-422b-b52c-be7064cdcd99"}}},"__selector":"_rpc_applicationSentListing:"}'
+2017-09-10 04:48:44:662 - info: [debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"I am a page title - Sauce Labs","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"http://saucelabs.com/test/guinea-pig","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"d0b695a5-0eb6-422b-b52c-be7064cdcd99"}}
+2017-09-10 04:48:44:662 - info: [debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"1017","pageArray":[{"id":1,"title":"I am a page title - Sauce Labs","url":"http://saucelabs.com/test/guinea-pig","isKey":true}]}
+2017-09-10 04:48:44:663 - info: [debug] [iOS] Checking if page needs to load
+2017-09-10 04:48:44:663 - info: [debug] [iOS] Page load needed. Loading.
+2017-09-10 04:48:44:663 - info: [debug] [RemoteDebugger] Page loaded, verifying whether ready
+2017-09-10 04:48:45:166 - info: [debug] [RemoteDebugger] Checking document readyState
+2017-09-10 04:48:45:166 - info: [debug] [RemoteDebugger] Sending javascript command (function (){ return document.readyState; })()
+2017-09-10 04:48:45:167 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:48:45:170 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:48:45:171 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:48:45:171 - info: [debug] [RemoteDebugger] Received data response from socket send: 'complete'
+2017-09-10 04:48:45:172 - info: [debug] [RemoteDebugger] Original command: sendJSCommand
+2017-09-10 04:48:45:173 - info: [debug] [RemoteDebugger] readyState was "complete"
+2017-09-10 04:48:45:174 - info: [debug] [RemoteDebugger] Page is ready
+2017-09-10 04:48:45:175 - info: [debug] [iOS] New page listing is same as old, doing nothing
+2017-09-10 04:48:59:801 - info: [HTTP] --> POST /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/element {"using":"id","value":"i_am_an_id"}
+2017-09-10 04:48:59:802 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","i_am_an_id","5f02e916-e387-40e0-9707-189a67e79d79"]
+2017-09-10 04:48:59:803 - info: [debug] [XCUITest] Executing command 'findElement'
+2017-09-10 04:48:59:808 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2017-09-10 04:48:59:810 - info: [debug] [BaseDriver] Waiting up to 30000 ms for condition
+2017-09-10 04:48:59:819 - info: [debug] [RemoteDebugger] Executing 'find_element' atom in default context
+2017-09-10 04:48:59:820 - info: [debug] [RemoteDebugger] Sending javascript command (function(){return function(){var aa="function"...
+2017-09-10 04:48:59:823 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:48:59:839 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:48:59:839 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:48:59:839 - info: [debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":{"ELEMENT":":wdc:1505018939...'
+2017-09-10 04:48:59:840 - info: [debug] [RemoteDebugger] Original command: sendJSCommand
+2017-09-10 04:48:59:841 - info: [debug] [RemoteDebugger] Received result for atom 'find_element' execution: {"ELEMENT":":wdc:1505018939836"}
+2017-09-10 04:48:59:843 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"5000"}
+2017-09-10 04:48:59:845 - info: [HTTP] <-- POST /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/element 200 42 ms - 90 
+2017-09-10 04:48:59:869 - info: [HTTP] --> GET /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/element/5000/text {}
+2017-09-10 04:48:59:870 - info: [debug] [MJSONWP] Calling AppiumDriver.getText() with args: ["5000","5f02e916-e387-40e0-9707-189a67e79d79"]
+2017-09-10 04:48:59:870 - info: [debug] [XCUITest] Executing command 'getText'
+2017-09-10 04:48:59:883 - info: [debug] [RemoteDebugger] Executing 'get_text' atom in default context
+2017-09-10 04:48:59:884 - info: [debug] [RemoteDebugger] Sending javascript command (function(){return function(){var h,ba="functio...
+2017-09-10 04:48:59:885 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:48:59:905 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:48:59:905 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:48:59:905 - info: [debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":"I am a div"}'
+2017-09-10 04:48:59:905 - info: [debug] [RemoteDebugger] Original command: sendJSCommand
+2017-09-10 04:48:59:906 - info: [debug] [RemoteDebugger] Received result for atom 'get_text' execution: "I am a div"
+2017-09-10 04:48:59:908 - info: [debug] [MJSONWP] Responding to client with driver.getText() result: "I am a div"
+2017-09-10 04:48:59:909 - info: [HTTP] <-- GET /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/element/5000/text 200 39 ms - 84 
+2017-09-10 04:48:59:916 - info: [HTTP] --> POST /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/element {"using":"id","value":"comments"}
+2017-09-10 04:48:59:916 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","comments","5f02e916-e387-40e0-9707-189a67e79d79"]
+2017-09-10 04:48:59:917 - info: [debug] [XCUITest] Executing command 'findElement'
+2017-09-10 04:48:59:924 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2017-09-10 04:48:59:926 - info: [debug] [BaseDriver] Waiting up to 30000 ms for condition
+2017-09-10 04:48:59:927 - info: [debug] [RemoteDebugger] Executing 'find_element' atom in default context
+2017-09-10 04:48:59:927 - info: [debug] [RemoteDebugger] Sending javascript command (function(){return function(){var aa="function"...
+2017-09-10 04:48:59:930 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:48:59:948 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:48:59:948 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:48:59:948 - info: [debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":{"ELEMENT":":wdc:1505018939...'
+2017-09-10 04:48:59:948 - info: [debug] [RemoteDebugger] Original command: sendJSCommand
+2017-09-10 04:48:59:949 - info: [debug] [RemoteDebugger] Received result for atom 'find_element' execution: {"ELEMENT":":wdc:1505018939837"}
+2017-09-10 04:48:59:951 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"5001"}
+2017-09-10 04:48:59:954 - info: [HTTP] <-- POST /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/element 200 36 ms - 90 
+2017-09-10 04:48:59:959 - info: [HTTP] --> POST /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/element/5001/value {"id":"5001","value":["This is an awesome comment"]}
+2017-09-10 04:48:59:960 - info: [debug] [MJSONWP] Calling AppiumDriver.setValue() with args: [["This is an awesome comment"],"5001","5f02e916-e387-40e0-9707-189a67e79d79"]
+2017-09-10 04:48:59:961 - info: [debug] [XCUITest] Executing command 'setValue'
+2017-09-10 04:48:59:973 - info: [debug] [RemoteDebugger] Executing 'click' atom in default context
+2017-09-10 04:48:59:973 - info: [debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k,aa="functio...
+2017-09-10 04:48:59:975 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:48:59:999 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:48:59:999 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:48:59:999 - info: [debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":null}'
+2017-09-10 04:48:59:999 - info: [debug] [RemoteDebugger] Original command: sendJSCommand
+2017-09-10 04:49:00:000 - info: [debug] [RemoteDebugger] Received result for atom 'click' execution: null
+2017-09-10 04:49:00:009 - info: [debug] [RemoteDebugger] Executing 'type' atom in default context
+2017-09-10 04:49:00:011 - info: [debug] [RemoteDebugger] Sending javascript command (function(){return function(){var h,aa="functio...
+2017-09-10 04:49:00:017 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:49:00:085 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:49:00:085 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:49:00:085 - info: [debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":null}'
+2017-09-10 04:49:00:086 - info: [debug] [RemoteDebugger] Original command: sendJSCommand
+2017-09-10 04:49:00:086 - info: [debug] [RemoteDebugger] Received result for atom 'type' execution: null
+2017-09-10 04:49:00:089 - info: [debug] [MJSONWP] Responding to client with driver.setValue() result: null
+2017-09-10 04:49:00:091 - info: [HTTP] <-- POST /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/element/5001/value 200 130 ms - 76 
+2017-09-10 04:49:00:099 - info: [HTTP] --> POST /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/element {"using":"id","value":"submit"}
+2017-09-10 04:49:00:100 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","submit","5f02e916-e387-40e0-9707-189a67e79d79"]
+2017-09-10 04:49:00:100 - info: [debug] [XCUITest] Executing command 'findElement'
+2017-09-10 04:49:00:104 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2017-09-10 04:49:00:104 - info: [debug] [BaseDriver] Waiting up to 30000 ms for condition
+2017-09-10 04:49:00:105 - info: [debug] [RemoteDebugger] Executing 'find_element' atom in default context
+2017-09-10 04:49:00:105 - info: [debug] [RemoteDebugger] Sending javascript command (function(){return function(){var aa="function"...
+2017-09-10 04:49:00:106 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:49:00:138 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:49:00:140 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:49:00:141 - info: [debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":{"ELEMENT":":wdc:1505018939...'
+2017-09-10 04:49:00:141 - info: [debug] [RemoteDebugger] Original command: sendJSCommand
+2017-09-10 04:49:00:142 - info: [debug] [RemoteDebugger] Received result for atom 'find_element' execution: {"ELEMENT":":wdc:1505018939838"}
+2017-09-10 04:49:00:144 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"5002"}
+2017-09-10 04:49:00:146 - info: [HTTP] <-- POST /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/element 200 46 ms - 90 
+2017-09-10 04:49:00:152 - info: [HTTP] --> POST /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/element/5002/click {"id":"5002"}
+2017-09-10 04:49:00:153 - info: [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["5002","5f02e916-e387-40e0-9707-189a67e79d79"]
+2017-09-10 04:49:00:153 - info: [debug] [XCUITest] Executing command 'click'
+2017-09-10 04:49:00:159 - info: [debug] [RemoteDebugger] Executing 'click' atom in default context
+2017-09-10 04:49:00:160 - info: [debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k,aa="functio...
+2017-09-10 04:49:00:163 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:49:00:218 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:49:00:220 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:49:00:220 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:49:00:220 - info: [debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":null}'
+2017-09-10 04:49:00:221 - info: [debug] [RemoteDebugger] Original command: sendJSCommand
+2017-09-10 04:49:00:221 - info: [debug] [RemoteDebugger] Received result for atom 'click' execution: null
+2017-09-10 04:49:00:223 - info: [debug] [MJSONWP] Responding to client with driver.click() result: null
+2017-09-10 04:49:00:226 - info: [HTTP] <-- POST /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/element/5002/click 200 72 ms - 76 
+2017-09-10 04:49:00:283 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:49:00:287 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:49:00:400 - info: [debug] [RemoteDebugger] Receiving data from remote debugger: '{"__argument":{"WIRApplicationIdentifierKey":"PID:1017","WIRListingKey":{"1":{"WIRTitleKey":"I am a page title - Sauce Labs","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"http://saucelabs.com/test/guinea-pig","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"d0b695a5-0eb6-422b-b52c-be7064cdcd99"}}},"__selector":"_rpc_applicationSentListing:"}'
+2017-09-10 04:49:00:400 - info: [debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"I am a page title - Sauce Labs","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"http://saucelabs.com/test/guinea-pig","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"d0b695a5-0eb6-422b-b52c-be7064cdcd99"}}
+2017-09-10 04:49:00:401 - info: [debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"1017","pageArray":[{"id":1,"title":"I am a page title - Sauce Labs","url":"http://saucelabs.com/test/guinea-pig","isKey":true}]}
+2017-09-10 04:49:00:401 - info: [debug] [iOS] Checking if page needs to load
+2017-09-10 04:49:00:401 - info: [debug] [iOS] Page load needed. Loading.
+2017-09-10 04:49:00:402 - info: [debug] [RemoteDebugger] Page loaded, verifying whether ready
+2017-09-10 04:49:00:902 - info: [debug] [RemoteDebugger] Checking document readyState
+2017-09-10 04:49:00:903 - info: [debug] [RemoteDebugger] Sending javascript command (function (){ return document.readyState; })()
+2017-09-10 04:49:00:903 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:49:00:905 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:49:00:906 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:49:00:906 - info: [debug] [RemoteDebugger] Received data response from socket send: 'complete'
+2017-09-10 04:49:00:906 - info: [debug] [RemoteDebugger] Original command: sendJSCommand
+2017-09-10 04:49:00:907 - info: [debug] [RemoteDebugger] readyState was "complete"
+2017-09-10 04:49:00:907 - info: [debug] [RemoteDebugger] Page is ready
+2017-09-10 04:49:00:907 - info: [debug] [iOS] New page listing is same as old, doing nothing
+2017-09-10 04:49:01:104 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:49:01:105 - info: [debug] [RemoteDebugger] Frame navigated, unloading page
+2017-09-10 04:49:01:105 - info: [debug] [RemoteDebugger] Frame navigated in 45.516 sec from source: remote-debugger
+2017-09-10 04:49:01:107 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:49:01:110 - info: [debug] [RemoteDebugger] Page loaded, verifying whether ready
+2017-09-10 04:49:01:111 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:49:01:114 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:49:01:304 - info: [debug] [RemoteDebugger] Receiving data from remote debugger: '{"__argument":{"WIRApplicationIdentifierKey":"PID:1017","WIRListingKey":{"1":{"WIRTitleKey":"I am a page title - Sauce Labs","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"http://saucelabs.com/test/guinea-pig","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"d0b695a5-0eb6-422b-b52c-be7064cdcd99"}}},"__selector":"_rpc_applicationSentListing:"}'
+2017-09-10 04:49:01:304 - info: [debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"I am a page title - Sauce Labs","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"http://saucelabs.com/test/guinea-pig","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"d0b695a5-0eb6-422b-b52c-be7064cdcd99"}}
+2017-09-10 04:49:01:305 - info: [debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"1017","pageArray":[{"id":1,"title":"I am a page title - Sauce Labs","url":"http://saucelabs.com/test/guinea-pig","isKey":true}]}
+2017-09-10 04:49:01:305 - info: [debug] [iOS] Checking if page needs to load
+2017-09-10 04:49:01:305 - info: [debug] [iOS] Page load needed. Loading.
+2017-09-10 04:49:01:305 - info: [debug] [RemoteDebugger] Page loaded, verifying whether ready
+2017-09-10 04:49:01:615 - info: [debug] [RemoteDebugger] Checking document readyState
+2017-09-10 04:49:01:616 - info: [debug] [RemoteDebugger] Sending javascript command (function (){ return document.readyState; })()
+2017-09-10 04:49:01:616 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:49:01:619 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:49:01:619 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:49:01:620 - info: [debug] [RemoteDebugger] Received data response from socket send: 'complete'
+2017-09-10 04:49:01:620 - info: [debug] [RemoteDebugger] Original command: sendJSCommand
+2017-09-10 04:49:01:620 - info: [debug] [RemoteDebugger] readyState was "complete"
+2017-09-10 04:49:01:620 - info: [debug] [RemoteDebugger] Page is ready
+2017-09-10 04:49:01:677 - info: [debug] [RemoteDebugger] Receiving data from remote debugger: '{"__argument":{"WIRApplicationIdentifierKey":"PID:1017","WIRListingKey":{"1":{"WIRTitleKey":"I am a page title - Sauce Labs","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"http://saucelabs.com/test/guinea-pig","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"d0b695a5-0eb6-422b-b52c-be7064cdcd99"}}},"__selector":"_rpc_applicationSentListing:"}'
+2017-09-10 04:49:01:677 - info: [debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"I am a page title - Sauce Labs","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"http://saucelabs.com/test/guinea-pig","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"d0b695a5-0eb6-422b-b52c-be7064cdcd99"}}
+2017-09-10 04:49:01:678 - info: [debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"1017","pageArray":[{"id":1,"title":"I am a page title - Sauce Labs","url":"http://saucelabs.com/test/guinea-pig","isKey":true}]}
+2017-09-10 04:49:01:678 - info: [debug] [iOS] Checking if page needs to load
+2017-09-10 04:49:01:678 - info: [debug] [iOS] Page load needed. Loading.
+2017-09-10 04:49:01:679 - info: [debug] [RemoteDebugger] Page loaded, verifying whether ready
+2017-09-10 04:49:01:806 - info: [debug] [RemoteDebugger] Checking document readyState
+2017-09-10 04:49:01:806 - info: [debug] [RemoteDebugger] Sending javascript command (function (){ return document.readyState; })()
+2017-09-10 04:49:01:806 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:49:01:808 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:49:01:809 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:49:01:809 - info: [debug] [RemoteDebugger] Received data response from socket send: 'complete'
+2017-09-10 04:49:01:809 - info: [debug] [RemoteDebugger] Original command: sendJSCommand
+2017-09-10 04:49:01:810 - info: [debug] [RemoteDebugger] readyState was "complete"
+2017-09-10 04:49:01:810 - info: [debug] [RemoteDebugger] Page is ready
+2017-09-10 04:49:01:810 - info: [debug] [iOS] New page listing is same as old, doing nothing
+2017-09-10 04:49:02:179 - info: [debug] [RemoteDebugger] Checking document readyState
+2017-09-10 04:49:02:180 - info: [debug] [RemoteDebugger] Sending javascript command (function (){ return document.readyState; })()
+2017-09-10 04:49:02:181 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:49:02:183 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:49:02:184 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:49:02:184 - info: [debug] [RemoteDebugger] Received data response from socket send: 'complete'
+2017-09-10 04:49:02:184 - info: [debug] [RemoteDebugger] Original command: sendJSCommand
+2017-09-10 04:49:02:184 - info: [debug] [RemoteDebugger] readyState was "complete"
+2017-09-10 04:49:02:185 - info: [debug] [RemoteDebugger] Page is ready
+2017-09-10 04:49:02:185 - info: [debug] [iOS] New page listing is same as old, doing nothing
+2017-09-10 04:49:07:241 - info: [HTTP] --> POST /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/element {"using":"id","value":"your_comments"}
+2017-09-10 04:49:07:241 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","your_comments","5f02e916-e387-40e0-9707-189a67e79d79"]
+2017-09-10 04:49:07:242 - info: [debug] [XCUITest] Executing command 'findElement'
+2017-09-10 04:49:07:247 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2017-09-10 04:49:07:248 - info: [debug] [BaseDriver] Waiting up to 30000 ms for condition
+2017-09-10 04:49:07:249 - info: [debug] [RemoteDebugger] Executing 'find_element' atom in default context
+2017-09-10 04:49:07:250 - info: [debug] [RemoteDebugger] Sending javascript command (function(){return function(){var aa="function"...
+2017-09-10 04:49:07:251 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:49:07:260 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:49:07:260 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:49:07:260 - info: [debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":{"ELEMENT":":wdc:1505018947...'
+2017-09-10 04:49:07:260 - info: [debug] [RemoteDebugger] Original command: sendJSCommand
+2017-09-10 04:49:07:260 - info: [debug] [RemoteDebugger] Received result for atom 'find_element' execution: {"ELEMENT":":wdc:1505018947258"}
+2017-09-10 04:49:07:261 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"5003"}
+2017-09-10 04:49:07:262 - info: [HTTP] <-- POST /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/element 200 21 ms - 90 
+2017-09-10 04:49:07:266 - info: [HTTP] --> POST /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/element {"using":"id","value":"your_comments"}
+2017-09-10 04:49:07:267 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","your_comments","5f02e916-e387-40e0-9707-189a67e79d79"]
+2017-09-10 04:49:07:267 - info: [debug] [XCUITest] Executing command 'findElement'
+2017-09-10 04:49:07:270 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2017-09-10 04:49:07:270 - info: [debug] [BaseDriver] Waiting up to 30000 ms for condition
+2017-09-10 04:49:07:270 - info: [debug] [RemoteDebugger] Executing 'find_element' atom in default context
+2017-09-10 04:49:07:271 - info: [debug] [RemoteDebugger] Sending javascript command (function(){return function(){var aa="function"...
+2017-09-10 04:49:07:272 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:49:07:276 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:49:07:276 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:49:07:277 - info: [debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":{"ELEMENT":":wdc:1505018947...'
+2017-09-10 04:49:07:277 - info: [debug] [RemoteDebugger] Original command: sendJSCommand
+2017-09-10 04:49:07:277 - info: [debug] [RemoteDebugger] Received result for atom 'find_element' execution: {"ELEMENT":":wdc:1505018947258"}
+2017-09-10 04:49:07:277 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"5004"}
+2017-09-10 04:49:07:278 - info: [HTTP] <-- POST /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/element 200 11 ms - 90 
+2017-09-10 04:49:07:283 - info: [HTTP] --> GET /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/element/5004/text {}
+2017-09-10 04:49:07:284 - info: [debug] [MJSONWP] Calling AppiumDriver.getText() with args: ["5004","5f02e916-e387-40e0-9707-189a67e79d79"]
+2017-09-10 04:49:07:284 - info: [debug] [XCUITest] Executing command 'getText'
+2017-09-10 04:49:07:287 - info: [debug] [RemoteDebugger] Executing 'get_text' atom in default context
+2017-09-10 04:49:07:287 - info: [debug] [RemoteDebugger] Sending javascript command (function(){return function(){var h,ba="functio...
+2017-09-10 04:49:07:288 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:49:07:299 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:49:07:299 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:49:07:300 - info: [debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":"Your comments: This is an ...'
+2017-09-10 04:49:07:300 - info: [debug] [RemoteDebugger] Original command: sendJSCommand
+2017-09-10 04:49:07:300 - info: [debug] [RemoteDebugger] Received result for atom 'get_text' execution: "Your comments: This is an awesome comment"
+2017-09-10 04:49:07:301 - info: [debug] [MJSONWP] Responding to client with driver.getText() result: "Your comments: This is an awesome comment"
+2017-09-10 04:49:07:302 - info: [HTTP] <-- GET /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/element/5004/text 200 18 ms - 115 
+2017-09-10 04:49:07:306 - info: [HTTP] --> GET /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/url {}
+2017-09-10 04:49:07:306 - info: [debug] [MJSONWP] Calling AppiumDriver.getUrl() with args: ["5f02e916-e387-40e0-9707-189a67e79d79"]
+2017-09-10 04:49:07:307 - info: [debug] [XCUITest] Executing command 'getUrl'
+2017-09-10 04:49:07:313 - info: [debug] [RemoteDebugger] Sending javascript command window.location.href
+2017-09-10 04:49:07:313 - info: [debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+2017-09-10 04:49:07:315 - info: [debug] [RemoteDebugger] Received applicationSentData response
+2017-09-10 04:49:07:316 - info: [debug] [RemoteDebugger] Found data handler for response
+2017-09-10 04:49:07:316 - info: [debug] [RemoteDebugger] Received data response from socket send: 'http://saucelabs.com/test/guinea-pig'
+2017-09-10 04:49:07:316 - info: [debug] [RemoteDebugger] Original command: sendJSCommand
+2017-09-10 04:49:07:317 - info: [debug] [MJSONWP] Responding to client with driver.getUrl() result: "http://saucelabs.com/test/guinea-pig"
+2017-09-10 04:49:07:318 - info: [HTTP] <-- GET /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79/url 200 11 ms - 110 
+2017-09-10 04:49:07:324 - info: [HTTP] --> DELETE /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79 {}
+2017-09-10 04:49:07:325 - info: [debug] [MJSONWP] Calling AppiumDriver.deleteSession() with args: ["5f02e916-e387-40e0-9707-189a67e79d79"]
+2017-09-10 04:49:07:325 - info: [debug] [BaseDriver] Event 'quitSessionRequested' logged at 1505018947325 (10:19:07 GMT+0530 (IST))
+2017-09-10 04:49:07:326 - info: [debug] [JSONWP Proxy] Proxying [DELETE /session/5f02e916-e387-40e0-9707-189a67e79d79] to [DELETE http://localhost:8100/session/A8BC608A-64BB-40AE-A167-EC04E1F06CC4] with no body
+2017-09-10 04:49:07:563 - info: [debug] [RemoteDebugger] Receiving data from remote debugger: '{"__argument":{"WIRRemoteAutomationEnabledKey":false,"WIRIsApplicationActiveKey":1,"WIRIsApplicationReadyKey":true,"WIRApplicationIdentifierKey":"PID:1015","WIRIsApplicationProxyKey":false,"WIRApplicationNameKey":"Safari","WIRApplicationBundleIdentifierKey":"com.apple.mobilesafari"},"__selector":"_rpc_applicationDisconnected:"}'
+2017-09-10 04:49:07:564 - info: [debug] [RemoteDebugger] Application 'PID:1015' disconnected. Removing from app dictionary.
+2017-09-10 04:49:07:565 - info: [debug] [RemoteDebugger] Current app is PID:1017
+2017-09-10 04:49:07:567 - info: [debug] [RemoteDebugger] Receiving data from remote debugger: '{"__argument":{"WIRRemoteAutomationEnabledKey":false,"WIRIsApplicationActiveKey":1,"WIRIsApplicationReadyKey":true,"WIRApplicationIdentifierKey":"PID:1017","WIRIsApplicationProxyKey":true,"WIRApplicationNameKey":"com.apple.WebKit.WebContent","WIRApplicationBundleIdentifierKey":"com.apple.WebKit.WebContent","WIRHostApplicationIdentifierKey":"PID:1015"},"__selector":"_rpc_applicationDisconnected:"}'
+2017-09-10 04:49:07:567 - info: [debug] [RemoteDebugger] Application 'PID:1017' disconnected. Removing from app dictionary.
+2017-09-10 04:49:07:567 - info: [debug] [RemoteDebugger] Current app is PID:1017
+2017-09-10 04:49:07:568 - info: [debug] [RemoteDebugger] No longer have app id. Attempting to find new one.
+2017-09-10 04:49:07:779 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n\n  },\n  \"sessionId\" : \"9773C4FD-5BC4-4F4E-925F-1104B1A635A7\",\n  \"status\" : 0\n}"
+2017-09-10 04:49:07:780 - info: [XCUITest] Shutting down sub-processes
+2017-09-10 04:49:07:781 - info: [XCUITest] Shutting down xcodebuild process (pid 992)
+2017-09-10 04:49:07:806 - info: [XCUITest] xcodebuild exited with code 'null' and signal 'SIGTERM'
+2017-09-10 04:49:07:808 - info: [debug] [XCUITest] Found WDA derived data folder: '/Users/akashwadhwa89/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy'
+2017-09-10 04:49:07:809 - info: [XCUITest] Setting '755' permissions to '/Users/akashwadhwa89/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Logs/Test/Attachments' folder
+2017-09-10 04:49:07:809 - info: [debug] [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+2017-09-10 04:49:07:810 - info: [debug] [XCUITest] In a web session. Removing remote debugger
+2017-09-10 04:49:07:811 - info: [debug] [RemoteDebugger] Disconnecting from remote debugger
+2017-09-10 04:49:07:812 - info: [debug] [RemoteDebugger] Cleaning up listeners
+2017-09-10 04:49:07:813 - info: [debug] [iOSLog] Stopping iOS log capture
+2017-09-10 04:49:07:816 - info: [Appium] Removing session 5f02e916-e387-40e0-9707-189a67e79d79 from our master session list
+2017-09-10 04:49:07:818 - info: [debug] [BaseDriver] Event 'quitSessionFinished' logged at 1505018947818 (10:19:07 GMT+0530 (IST))
+2017-09-10 04:49:07:819 - info: [debug] [MJSONWP] Received response: null
+2017-09-10 04:49:07:819 - info: [debug] [MJSONWP] But deleting session, so not returning
+2017-09-10 04:49:07:819 - info: [debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
+2017-09-10 04:49:07:820 - info: [HTTP] <-- DELETE /wd/hub/session/5f02e916-e387-40e0-9707-189a67e79d79 200 496 ms - 76 
+2017-09-10 04:49:07:828 - info: [Appium] Received SIGTERM - shutting down
